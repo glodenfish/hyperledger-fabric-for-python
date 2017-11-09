@@ -96,7 +96,10 @@
 >	When invoking the Python 2 command line interpreter with the -t option, it issues warnings about code that illegally mixes tabs and spaces. When using -tt these warnings become errors. These options are highly recommended!
 
 >	空格是首选的缩进方法.
->	标签应该单独使用，与已经缩进标签的代码保持一致. 
+
+>	标签应该单独使用，与已经缩进标签的代码保持一致.
+
 >	Python 3不允许混合使用制表符和空格来缩进.
+
 >	Python 2的代码缩进了一个混合的选项卡和空格，应该转换为只使用空格.
->	当使用-t选项调用Python 2命令行解释器时，它会发出关于非法混合制表符和空格的代码的警告。当使用-tt时，这些警告会变成错误。强烈推荐这些选项!
+	当使用-t选项调用Python 2命令行解释器时，它会发出关于非法混合制表符和空格的代码的警告。当使用-tt时，这些警告会变成错误。强烈推荐这些选项!
