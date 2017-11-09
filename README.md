@@ -22,7 +22,7 @@
 	    var_one, var_two,
 	    var_three, var_four)
 	    
->#### 反例：
+>#### 反例：不推荐这种写法
 	1. Arguments on first line forbidden when not using vertical alignment.
 	#如果不使用垂直对齐方式，参数不要在第一行出现
 	foo = long_function_name(var_one, var_two,
