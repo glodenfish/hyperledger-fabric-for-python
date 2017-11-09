@@ -65,7 +65,7 @@
 
 
 >#### The closing brace/bracket/parenthesis on multiline constructs may either line up under the first non-whitespace character of the last line of list, as in:
-       括号、方括号、花括号在多行结构中可以在列表最后一行的第一个非空白字符下排队。比如：  
+       #括号、方括号、花括号在多行结构中可以在列表最后一行的第一个非空白字符下排队。比如：  
         my_list = [
 	     1, 2, 3,
 	     4, 5, 6,
@@ -74,3 +74,13 @@
 		    'a', 'b', 'c',
 		    'd', 'e', 'f',
 	    )
+>#### or it may be lined up under the first character of the line that starts the multiline construct, as in:
+	#或者它可以在开始多行构造的第一个字符行下面排队
+	my_list = [
+	    1, 2, 3,
+	    4, 5, 6,
+	]
+	result = some_function_that_takes_arguments(
+	    'a', 'b', 'c',
+	    'd', 'e', 'f',
+	)
