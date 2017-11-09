@@ -5,7 +5,7 @@
 ## 1.we need learning some code style conventions for writen python contribution.
 ### 1.1 code layout  代码布局
 >#### 1.1.1 indentation : use 4 spaces per indentation level #每个缩进级别需要使用4个空格.
->##### example:
+>#### example:
 	1. Aligned with opening delimiter. 
 	#使用分开的界定符对齐
 	foo = long_function_name(var_one, var_two,
@@ -62,3 +62,15 @@
 	    that_is_another_thing):
 	    # Since both conditions are true, we can frobnicate.
 	    do_something()
+
+
+>#### The closing brace/bracket/parenthesis on multiline constructs may either line up under the first non-whitespace character of the last line of list, as in:
+       括号、方括号、花括号在多行结构中可以在列表最后一行的第一个非空白字符下排队。比如：
+       my_list = [
+	    1, 2, 3,
+	    4, 5, 6,
+	    ]
+	result = some_function_that_takes_arguments(
+	    'a', 'b', 'c',
+	    'd', 'e', 'f',
+	    )
