@@ -41,7 +41,7 @@
 	foo = long_function_name(
 	  var_one, var_two,
 	  var_three, var_four)
->####When the conditional part of an if-statement is long enough to require that it be written 
+>#### When the conditional part of an if-statement is long enough to require that it be written 
 >#### 当if条件语句的条件部分很长跨了多个行的时候，值得注意的是由2个字符关键词加上一个空格，再加上
 >####	across multiple lines, it's worth noting that the combination of a two character keyword (i.e.
 >####	一个打开的方括号构成的一个正常的4个空格缩进给子行的多行条件。
